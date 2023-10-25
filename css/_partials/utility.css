@@ -6,5 +6,8 @@ Utility
 
 .gp-header {
   height: 4.375rem;
-  background-color: aqua;
+}
+
+.gp-search {
+  background-color: #e5e5e5;
 }
