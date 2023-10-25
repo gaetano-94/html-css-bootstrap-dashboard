@@ -3,3 +3,8 @@
 Utility
 *******************
 */
+
+.gp-header {
+  height: 4.375rem;
+  background-color: aqua;
+}
