@@ -6,3 +6,42 @@ Core
 
 @import './_partials/common.css';
 @import './_partials/utility.css';
+
+/* 
+Header
+*/
+header {
+  height: 4.375rem;
+}
+
+.gp-img-small {
+  width: 3.75rem;
+}
+
+.gp-icon > * {
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
+}
+/* 
+Main
+*/
+.gp-main-container {
+  height: calc(100vh - 4.375rem);
+}
+
+.gp-main-left {
+  background-color: green;
+}
+
+.gp-main-right {
+  background-color: yellow;
+}
+
+/* 
+Media Query
+*/
+@media (min-width: 992px) {
+  .gp-main-left {
+    width: 9.375rem;
+  }
+}
