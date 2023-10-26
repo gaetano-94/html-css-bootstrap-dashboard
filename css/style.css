@@ -22,6 +22,11 @@ header {
   background-color: #e5e5e5;
   border-color: #e5e5e5;
 }
+
+.gp-icon input:focus {
+  border: 1px solid #e5e5e5;
+  background-color: #e5e5e5;
+}
 /* 
 Main
 */
@@ -30,11 +35,12 @@ Main
 }
 
 .gp-main-left {
-  background-color: green;
+  background-color: #051e34;
+  background-image: url('../img/sidebar-bg.png');
 }
 
 .gp-main-right {
-  background-color: yellow;
+  background-color: lightgreen;
 }
 
 /* 
